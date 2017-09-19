@@ -10,4 +10,5 @@ git merge upstream/master
 ## Securely Delete Data
 ```
 shred -vfzu -n 10 file
+srm -v /dir
 ```
