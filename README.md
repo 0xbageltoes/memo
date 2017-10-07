@@ -29,10 +29,10 @@ Ctrl+H: Delete the character before the cursor
 
 ### Cut & Paste
 ```
-Ctrl+W: Cut the word before the cursor, adding it to the clipboard
-Ctrl+K: Cut the part of the line after the cursor, adding it to the clipboard
-Ctrl+U: Cut the part of the line before the cursor, adding it to the clipboard
-Ctrl+Y: Paste the last thing you cut from the clipboard
+Ctrl+W: Cut the word before the cursor
+Ctrl+K: Cut the part of the line after the cursor
+Ctrl+U: Cut the part of the line before the cursor
+Ctrl+Y: Paste
 ```
 
 ### Capitalize
