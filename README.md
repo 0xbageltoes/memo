@@ -26,6 +26,7 @@
 | `end` | Go to the end of the line |
 | `ctrl-left` | Go to the beginning of word |
 | `ctrl-right` | Go to the end of word |
+| `ctrl-m` | Go to matching bracket |
 | `ctrl-r` | Go to a symbol in current file, such as function definition |
 
 ### Bookmarks
