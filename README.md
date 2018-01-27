@@ -34,6 +34,7 @@
 ### Selection
 | Command | Description |
 | --- | --- |
+| `ctrl-m` | Select matching bracket |
 | `ctrl-alt-,` | Select inside brackets |
 
 ## Git
