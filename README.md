@@ -1,12 +1,44 @@
 # memo
 
-## Fork
+## Atom
+
+### Tree View
+| Command | Description |
+| --- | --- |
+| `ctrl-\` | Toggle tree view |
+| `alt-\` | Toggle focus on tree view|
+| `a`, `m`, `delete` | Add, move, or delete file when focused on tree view|
+
+### Open a File
+| Command | Description |
+| --- | --- |
+| `ctrl-t` or `ctrl-p` | Search for file in the project |
+| `ctrl-b` | Search through only the files currently opened |
+| `ctrl-shift-b` | Search through only the files currently opened and new or modified since your last commit |
+
+### Moving
+| Command | Description |
+| --- | --- |
+| `ctrl-g` | Go to line |
+| `ctrl-home` | Go to the top of the file |
+| `ctrl-end` | Go to the bottom of the file |
+| `home` | Go to the first character of the current line |
+| `end` | Go to the end of the line |
+| `ctrl-left` | Go to the beginning of word |
+| `ctrl-right` | Go to the end of word |
+| `ctrl-r` | Go to a symbol in current file, such as function definition |
+
+### Bookmarks
+
+## Git
+
+### Fork
 ```
 git clone https://github.com/YOUR-USERNAME/FORKED-REPO
 git remote add upstream https://github.com/ORIGINAL-USERNAME/REPO
 ```
 
-## Syncing Fork
+### Syncing Fork
 ```
 git fetch upstream
 git checkout master
