@@ -31,6 +31,11 @@
 
 ### Bookmarks
 
+### Selection
+| Command | Description |
+| --- | --- |
+| `ctrl-alt-,` | Select inside brackets |
+
 ## Git
 
 ### Fork
