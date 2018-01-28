@@ -48,6 +48,14 @@
 | `ctrl-l` | Select the entire line |
 | `ctrl-alt-,` | Select inside brackets |
 
+### Folding
+| Command | Description |
+| --- | --- |
+| `alt-ctrl-[` | Fold |
+| `alt-ctrl-]` | Unfold |
+| `alt-ctrl-shift-[` | Fold everything |
+| `alt-ctrl-shift-]` | Unfold everything |
+
 ## Git
 
 ### Fork
