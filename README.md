@@ -46,7 +46,6 @@
 | `ctrl-shift-end` | Select to bottom of file |
 | `ctrl-a` | Select the entire contents of the file |
 | `ctrl-l` | Select the entire line |
-| `ctrl-m` | Select matching bracket |
 | `ctrl-alt-,` | Select inside brackets |
 
 ## Git
