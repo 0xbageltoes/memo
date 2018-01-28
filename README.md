@@ -34,6 +34,18 @@
 ### Selection
 | Command | Description |
 | --- | --- |
+| `shift-up` | Select up |
+| `shift-down` | Select down |
+| `shift-left` | Select previous character |
+| `shift-right` | Select next character |
+| `ctrl-shift-left` | Select to beginning of word |
+| `ctrl-shift-right` | Select to end of word |
+| `shift-home` | Select to first character of line |
+| `shift-end` | Select to end of line |
+| `ctrl-shift-home` | Select to top of file |
+| `ctrl-shift-end` | Select to bottom of file |
+| `ctrl-a` | Select the entire contents of the file |
+| `ctrl-l` | Select the entire line |
 | `ctrl-m` | Select matching bracket |
 | `ctrl-alt-,` | Select inside brackets |
 
