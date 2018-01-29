@@ -60,7 +60,8 @@
 | Command | Description |
 | --- | --- |
 | `ctrl-j` | Join the next line to the end of the current line |
-| `ctrl-up/down` | Move the current line up or down |
+| `ctrl-up` | Move the current line up |
+| `ctrl-down` | Move the current line down |
 | `ctrl-shift-d` | Duplicate the current line |
 | `ctrl-k ctrl-u` | Upper case the current word |
 | `ctrl-k ctrl+l` | Lower case the current word |
