@@ -64,6 +64,9 @@
 | `ctrl-shift-d` | Duplicate the current line |
 | `ctrl-k ctrl-u` | Upper case the current word |
 | `ctrl-k ctrl+l` | Lower case the current word |
+| `ctrl-shift-k` | Delete current line |
+| `ctrl-backspace` | Delete to beginning of word |
+| `ctrl-delete` | Delete to end of word |
 
 ## Git
 
