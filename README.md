@@ -56,6 +56,15 @@
 | `alt-ctrl-shift-[` | Fold everything |
 | `alt-ctrl-shift-]` | Unfold everything |
 
+### Editing and Deleting
+| Command | Description |
+| --- | --- |
+| `ctrl-j` | Join the next line to the end of the current line |
+| `ctrl-up/down` | Move the current line up or down |
+| `ctrl-shift-d` | Duplicate the current line |
+| `ctrl-k ctrl-u` | Upper case the current word |
+| `ctrl-k ctrl+l` | Lower case the current word |
+
 ## Git
 
 ### Fork
