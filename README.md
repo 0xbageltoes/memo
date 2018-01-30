@@ -29,8 +29,6 @@
 | `ctrl-m` | Go to matching bracket |
 | `ctrl-r` | Go to a symbol in current file, such as function definition |
 
-### Bookmarks
-
 ### Selection
 | Command | Description |
 | --- | --- |
