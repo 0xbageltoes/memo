@@ -82,14 +82,20 @@
 ### Panes
 | Command | Description |
 | --- | --- |
-| `ctrl-k up/down/left/right` | split pane |
-| `ctrl-k ctrl-up/down/left/right` | focus pane |
-| `ctrl-w` | close all panes |
+| `ctrl-k up/down/left/right` | Split pane |
+| `ctrl-k ctrl-up/down/left/right` | Focus pane |
+| `ctrl-w` | Close all panes |
 
 ### Git
 | Command | Description |
 | --- | --- |
-| `alt-ctrl-z` | checkout `HEAD` |
+| `alt-ctrl-z` | Checkout `HEAD` |
+| `alt-g up/down` | Move to previous / next diff |
+| `alt-g o` | Open file on GitHub |
+| `alt-g b` | Open Blame view of file on GitHub |
+| `alt-g h` | Open History view of file on GitHub |
+| `alt-g c` | Copy the URL of the current file on GitHub to the clipboard |
+| `alt-g r` | Branch compare on GitHub |
 
 ## Git
 
