@@ -67,6 +67,12 @@
 | `alt-f3` | Select all words in the document that are the same as the currently selected word |
 | `alt-ctrl-.` | Close the current XML/HTML tag |
 
+### Find and Replace
+| Command | Description |
+| --- | --- |
+| `ctrl-f` | Search within a buffer |
+| `ctrl-shift-f` | Search the entire project |
+
 ### Folding
 | Command | Description |
 | --- | --- |
