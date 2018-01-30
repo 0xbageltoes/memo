@@ -28,7 +28,6 @@
 | `ctrl-right` | Go to the end of word |
 | `ctrl-m` | Go to matching bracket |
 | `ctrl-r` | Go to a symbol in current file, such as function definition |
-| `alt-ctrl-.` | Close the current XML/HTML tag |
 
 ### Bookmarks
 
@@ -74,6 +73,7 @@
 | `alt-shift-down` | Add another cursor below the current cursor |
 | `ctrl-d` | Select the next word in the document that is the same as the currently selected word |
 | `alt-f3` | Select all words in the document that are the same as the currently selected word |
+| `alt-ctrl-.` | Close the current XML/HTML tag |
 
 ## Git
 
