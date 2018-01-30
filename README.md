@@ -28,6 +28,7 @@
 | `ctrl-right` | Go to the end of word |
 | `ctrl-m` | Go to matching bracket |
 | `ctrl-r` | Go to a symbol in current file, such as function definition |
+| `alt-ctrl-.` | Close the current XML/HTML tag |
 
 ### Bookmarks
 
@@ -68,6 +69,11 @@
 | `ctrl-shift-k` | Delete current line |
 | `ctrl-backspace` | Delete to beginning of word |
 | `ctrl-delete` | Delete to end of word |
+| `ctrl-click` | Add a new cursor at the clicked location |
+| `alt-shift-up` | Add another cursor above the current cursor |
+| `alt-shift-down` | Add another cursor below the current cursor |
+| `ctrl-d` | Select the next word in the document that is the same as the currently selected word |
+| `alt-f3` | Select all words in the document that are the same as the currently selected word |
 
 ## Git
 
