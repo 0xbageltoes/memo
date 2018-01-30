@@ -48,14 +48,6 @@
 | `ctrl-l` | Select the entire line |
 | `ctrl-alt-,` | Select inside brackets |
 
-### Folding
-| Command | Description |
-| --- | --- |
-| `alt-ctrl-[` | Fold |
-| `alt-ctrl-]` | Unfold |
-| `alt-ctrl-shift-[` | Fold everything |
-| `alt-ctrl-shift-]` | Unfold everything |
-
 ### Editing and Deleting
 | Command | Description |
 | --- | --- |
@@ -74,6 +66,14 @@
 | `ctrl-d` | Select the next word in the document that is the same as the currently selected word |
 | `alt-f3` | Select all words in the document that are the same as the currently selected word |
 | `alt-ctrl-.` | Close the current XML/HTML tag |
+
+### Folding
+| Command | Description |
+| --- | --- |
+| `alt-ctrl-[` | Fold |
+| `alt-ctrl-]` | Unfold |
+| `alt-ctrl-shift-[` | Fold everything |
+| `alt-ctrl-shift-]` | Unfold everything |
 
 ## Git
 
