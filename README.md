@@ -84,6 +84,7 @@
 | --- | --- |
 | `ctrl-k up/down/left/right` | split pane |
 | `ctrl-k ctrl-up/down/left/right` | focus pane |
+| `ctrl-w` | close all panes |
 
 ## Git
 
