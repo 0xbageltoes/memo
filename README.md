@@ -79,6 +79,12 @@
 | `alt-ctrl-shift-[` | Fold everything |
 | `alt-ctrl-shift-]` | Unfold everything |
 
+## Panes
+| Command | Description |
+| --- | --- |
+| `ctrl-k up/down/left/right` | split pane |
+| `ctrl-k ctrl-up/down/left/right` | focus pane |
+
 ## Git
 
 ### Fork
