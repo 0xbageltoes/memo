@@ -45,6 +45,9 @@
 | `ctrl-a` | Select the entire contents of the file |
 | `ctrl-l` | Select the entire line |
 | `ctrl-alt-,` | Select inside brackets |
+| `ctrl-d` | Select the next word in the document that is the same as the currently selected word |
+| `ctrl-u` | Undo previous selection |
+| `alt-f3` | Select all words in the document that are the same as the currently selected word |
 
 ### Editing and Deleting
 | Command | Description |
@@ -58,17 +61,17 @@
 | `ctrl-shift-k` | Delete current line |
 | `ctrl-backspace` | Delete to beginning of word |
 | `ctrl-delete` | Delete to end of word |
+| `alt-ctrl-.` | Close the current XML/HTML tag |
 | `ctrl-click` | Add a new cursor at the clicked location |
 | `alt-shift-up` | Add another cursor above the current cursor |
 | `alt-shift-down` | Add another cursor below the current cursor |
-| `ctrl-d` | Select the next word in the document that is the same as the currently selected word |
-| `alt-f3` | Select all words in the document that are the same as the currently selected word |
-| `alt-ctrl-.` | Close the current XML/HTML tag |
 
 ### Find and Replace
 | Command | Description |
 | --- | --- |
 | `ctrl-f` | Search within a buffer |
+| `f3` | Find next |
+| `shift-f3` | Find previous |
 | `ctrl-shift-f` | Search the entire project |
 
 ### Folding
