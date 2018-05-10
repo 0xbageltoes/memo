@@ -3,6 +3,7 @@
 - [Git](#git)
 - [Docker](#docker)
 - [Terminal](#terminal)
+- [Securely Delete Data](#securely-delete-data)
 
 ## Atom
 
