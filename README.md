@@ -1,4 +1,7 @@
 # memo
+- [Atom](#atom)
+- [Git](#git)
+- [Terminal] (#terminal)
 
 ## Atom
 
@@ -115,7 +118,7 @@ git checkout master
 git merge upstream/master
 ```
 
-## Terminal Keyboard shortcuts
+## Terminal
 
 ### Moving Cursor
 ```
