@@ -120,6 +120,8 @@ git merge upstream/master
 ```
 
 ## Docker
+
+### Info
 ```
 # List Docker CLI commands
 docker
@@ -128,17 +130,41 @@ docker container --help
 # Display Docker version and info
 docker version
 docker info
+```
 
-# Execute Docker image
-docker run hello-world
-
+### Image
+```
 # List Docker images
 docker image ls
 
-# List Docker containers (running, all, all in quiet mode)
+# Create image using this directory's Dockerfile
+docker build -t <image name> .
+
+# Remove all images from this machine
+docker image rm $(docker image ls -a -q)
+
+# Execute Docker image
+docker run hello-world
+```
+
+### Container
+```
+# List Docker containers
 docker container ls
-docker container ls --all
-docker container ls -aq
+
+# Remove all containers
+docker container rm $(docker container ls -a -q)
+```
+
+### Publish
+```
+docker login            
+
+# Tag <image> for upload to registry
+docker tag <image> username/repository:tag
+
+# Upload tagged image to registry
+docker push username/repository:tag  
 ```
 
 ## Terminal
