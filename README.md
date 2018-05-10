@@ -1,6 +1,7 @@
 # memo
 - [Atom](#atom)
 - [Git](#git)
+- [Docker](#docker)
 - [Terminal](#terminal)
 
 ## Atom
@@ -116,6 +117,28 @@ git remote add upstream https://github.com/ORIGINAL-USERNAME/REPO
 git fetch upstream
 git checkout master
 git merge upstream/master
+```
+
+## Docker
+```
+# List Docker CLI commands
+docker
+docker container --help
+
+# Display Docker version and info
+docker version
+docker info
+
+# Execute Docker image
+docker run hello-world
+
+# List Docker images
+docker image ls
+
+# List Docker containers (running, all, all in quiet mode)
+docker container ls
+docker container ls --all
+docker container ls -aq
 ```
 
 ## Terminal
