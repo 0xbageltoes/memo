@@ -1,7 +1,7 @@
 # memo
 - [Atom](#atom)
 - [Git](#git)
-- [Terminal] (#terminal)
+- [Terminal](#terminal)
 
 ## Atom
 
@@ -92,7 +92,7 @@
 | `ctrl-k ctrl-up/down/left/right` | Focus pane |
 | `ctrl-w` | Close all panes |
 
-### Git
+### Git Short Cuts
 | Command | Description |
 | --- | --- |
 | `alt-ctrl-z` | Checkout `HEAD` |
