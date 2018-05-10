@@ -153,6 +153,9 @@ docker run hello-world
 # List Docker containers
 docker container ls
 
+# Run bash command
+docker exec -i -t <container name> /bin/bash
+
 # Remove all containers
 docker container rm $(docker container ls -a -q)
 ```
