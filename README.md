@@ -151,6 +151,7 @@ docker run hello-world
 ### Container
 ```
 # List Docker containers
+docker ps
 docker container ls
 
 # Run bash command
