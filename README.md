@@ -145,7 +145,7 @@ docker build -t <image name> .
 docker image rm $(docker image ls -a -q)
 
 # Execute Docker image
-docker run hello-world
+docker run <image name>
 ```
 
 ### Container
