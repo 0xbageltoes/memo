@@ -146,6 +146,8 @@ docker image rm $(docker image ls -a -q)
 
 # Execute Docker image
 docker run <image name>
+## Debug
+docker run -it --rm <image name> /bin/bash
 ```
 
 ### Container
