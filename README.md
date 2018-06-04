@@ -7,6 +7,12 @@
 
 ## Atom
 
+### Save Installed Packages
+```
+apm list --installed --bare > ./atom-packages.txt
+apm install --packages-file ~./atom-packages.txt
+```
+
 ### Tree View
 | Command | Description |
 | --- | --- |
