@@ -4,6 +4,7 @@
 - [Docker](#docker)
 - [Terminal](#terminal)
 - [Securely Delete Data](#securely-delete-data)
+- [GPG Encrypt File](#gpg-encrypt-file)
 
 ## Atom
 
@@ -218,4 +219,13 @@ Alt+L: Uncapitalize every character from the cursor to the end of the current wo
 ```
 shred -vfzu -n 10 file
 srm -vr /dir
+```
+
+## GPG Encrypt File
+```
+# encrypt
+gpg -c file
+
+# decrypt
+gpg file.gpg
 ```
