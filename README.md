@@ -151,6 +151,9 @@ docker build -t <image name> .
 # Remove all images from this machine
 docker image rm $(docker image ls -a -q)
 
+# Delete all untagged images
+docker rmi $(docker images -q --filter "dangling=true")
+
 # Execute Docker image
 docker run <image name>
 ## Debug
