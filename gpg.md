@@ -30,7 +30,7 @@ gpg --verify SHA256SUM.asc
 shasum -c SHA256SUM.asc
 ```
 
-## Create Revocation certificate
+## Create revocation certificate
 ```shell
 gpg --generate-revocation <pub key>
 ```
