@@ -29,3 +29,10 @@ gpg --verify SHA256SUM.asc
 # verify file against checksum
 shasum -c SHA256SUM.asc
 ```
+
+## Create Revocation certificate
+```shell
+gpg --generate-revocation <pub key>
+```
+
+Copy output into a file and store it in a safe place
