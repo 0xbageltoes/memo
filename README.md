@@ -1,6 +1,6 @@
 # memo
 - [Atom](#atom)
-- [Git](#git)
+- [Git](./git.md)
 - [Docker](#docker)
 - [Terminal](#terminal)
 - [Securely Delete Data](#securely-delete-data)
@@ -111,21 +111,6 @@ apm install --packages-file ~./atom-packages.txt
 | `alt-g h` | Open History view of file on GitHub |
 | `alt-g c` | Copy the URL of the current file on GitHub to the clipboard |
 | `alt-g r` | Branch compare on GitHub |
-
-## Git
-
-### Fork
-```
-git clone https://github.com/YOUR-USERNAME/FORKED-REPO
-git remote add upstream https://github.com/ORIGINAL-USERNAME/REPO
-```
-
-### Syncing Fork
-```
-git fetch upstream
-git checkout master
-git merge upstream/master
-```
 
 ## Docker
 
