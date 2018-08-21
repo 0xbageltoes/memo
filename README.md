@@ -20,3 +20,20 @@ gpg -c file
 # decrypt
 gpg file.gpg
 ```
+
+## Virtualenv
+```
+# create virtualenv
+virtualenv venv
+
+# activate
+source venv/bin/activate
+
+# install python deps
+pip install foo
+pip freeze > requirements.txt
+pip install -r requirements.txt
+
+# deactivate virtualenv
+deactivate
+```
