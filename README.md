@@ -3,6 +3,7 @@
 - [Git](./git.md)
 - [Docker](./docker.md)
 - [Terminal](./terminal.md)
+- [Tmux](./tmux.md)
 - [Securely Delete Data](#securely-delete-data)
 - [GPG Encrypt File](#gpg-encrypt-file)
 
