@@ -2,6 +2,7 @@
 - [Atom](./atom.md)
 - [Git](./git.md)
 - [Docker](./docker.md)
+- [Kubernetes](./kubernetes.md)
 - [Terminal](./terminal.md)
 - [Tmux](./tmux.md)
 - [Securely Delete Data](#securely-delete-data)
