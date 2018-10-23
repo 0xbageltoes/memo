@@ -5,8 +5,8 @@
 Ctrl+A:  Go to the beginning of the line
 Ctrl+E:  Go to the end of the line
 Alt+B:   Go back one word
-Ctrl+B:  Go back one character
 Alt+F:   Go forward one word
+Ctrl+B:  Go back one character
 Ctrl+F:  Go forward one character
 Ctrl+XX: Move between the beginning of the line and the current position of the cursor
 ```
