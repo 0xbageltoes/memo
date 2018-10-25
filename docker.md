@@ -25,6 +25,9 @@ docker image rm $(docker image ls -a -q)
 # Delete all untagged images
 docker rmi $(docker images -q -f "dangling=true")
 
+# Delete ununsed images
+docker image prune
+
 # Execute Docker image
 docker run <image name>
 ## Debug
@@ -42,6 +45,9 @@ docker exec -i -t <container name> /bin/bash
 
 # Remove all containers
 docker container rm $(docker container ls -a -q)
+
+# Delete stopped container
+docker container prune
 ```
 
 ### Publish
