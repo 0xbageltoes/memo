@@ -17,6 +17,11 @@ git merge upstream/master
 git checkout -- <file or folder>
 ```
 
+## Delete Untracked Files
+```shell
+git clean -df
+```
+
 ## Add Patch
 ```shell
 git add -p <files>
