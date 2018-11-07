@@ -7,6 +7,15 @@ gpg --gen-key
 gpg --list-keys
 ```
 
+## GPG Encrypt File
+```
+# encrypt
+gpg -c file
+
+# decrypt
+gpg file.gpg
+```
+
 ## Signing files
 ```shell
 echo "This file was created by Alice Liddell" > alice-author.txt
