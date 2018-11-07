@@ -14,15 +14,6 @@ shred -vfzu -n 10 file
 srm -vr /dir
 ```
 
-## GPG Encrypt File
-```
-# encrypt
-gpg -c file
-
-# decrypt
-gpg file.gpg
-```
-
 ## Virtualenv
 ```
 # create virtualenv
