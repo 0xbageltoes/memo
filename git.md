@@ -1,4 +1,11 @@
 # Git
+
+## Misc
+```shell
+# pretty print
+git log --oneline --decorate --color --graph
+```
+
 ## Fork
 ```shell
 git clone https://github.com/YOUR-USERNAME/FORKED-REPO
