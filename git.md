@@ -29,6 +29,12 @@ git checkout -- <file or folder>
 git clean -df
 ```
 
+## Fixing commit
+```shell
+git commit --fixup <hash>
+git rebase --interactive --autosquash master
+```
+
 ## Add Patch
 ```shell
 git add -p <files>
