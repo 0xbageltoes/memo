@@ -42,3 +42,9 @@ git add -p <files>
 - `y` - Yes, add this hunk
 - `n` - No, don’t add this hunk
 - `d` - No, don’t add this hunk and all other remaining hunks
+
+
+## Cache Credentials
+```shell
+git config --global credential.helper 'cache --timeout=3600'
+```
