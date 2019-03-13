@@ -14,9 +14,8 @@ git remote add upstream https://github.com/ORIGINAL-USERNAME/REPO
 
 ## Syncing Fork
 ```shell
-git fetch upstream
 git checkout master
-git merge upstream/master
+git pull upstream master
 ```
 
 ## Reset Files
