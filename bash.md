@@ -10,3 +10,9 @@ cp index.js{,.backup}
 
 mkdir -p packages/{pkg1,pkg2,pkg3}/src
 ```
+
+## Default Args
+```
+echo ${FOO:-'default'}
+# default
+```
