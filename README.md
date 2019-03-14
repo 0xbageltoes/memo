@@ -4,6 +4,7 @@
 - [Docker](./docker.md)
 - [Kubernetes](./kubernetes.md)
 - [Terminal](./terminal.md)
+- [Bash](./bash.md)
 - [Tmux](./tmux.md)
 - [Securely Delete Data](#securely-delete-data)
 - [GPG Encrypt File](#gpg-encrypt-file)
