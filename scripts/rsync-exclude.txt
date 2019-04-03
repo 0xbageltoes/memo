@@ -3,4 +3,5 @@ node_modules/
 .venv
 venv
 build
+.build
 static/js
