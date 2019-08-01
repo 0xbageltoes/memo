@@ -46,4 +46,9 @@ git add -p <files>
 ## Cache Credentials
 ```shell
 git config --global credential.helper 'cache --timeout=3600'
+
+# switch credentials in ssh-agent
+ssh-add -l
+ssh-add -D
+ssh-add ~/.ssh/id_rsa
 ```
