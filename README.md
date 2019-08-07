@@ -1,6 +1,7 @@
 # memo
 - [Atom](./atom.md)
 - [Git](./git.md)
+- [Vim](./vim.md)
 - [Docker](./docker.md)
 - [Kubernetes](./kubernetes.md)
 - [Terminal](./terminal.md)
