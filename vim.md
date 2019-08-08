@@ -12,7 +12,7 @@ N repeat search reverse
 
 ## Motion
 ```
-% move to pair
+% match brackets {}[]()
 } move to next paragraph
 { move to previous paragraph
 H move to top of screen
@@ -24,4 +24,10 @@ M move to middle of screen
 ```
 gvo - reselect previous selection
 gvo o - mode cursor to start / end of visual
+```
+
+## Edit
+```
+guu     : lowercase line
+gUU     : uppercase line
 ```
