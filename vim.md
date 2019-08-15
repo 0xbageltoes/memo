@@ -30,4 +30,5 @@ gvo o - mode cursor to start / end of visual
 ```
 guu     : lowercase line
 gUU     : uppercase line
+xp      : swap next two characters around
 ```
