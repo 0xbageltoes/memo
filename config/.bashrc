@@ -1,8 +1,8 @@
 GREEN='\[\e[38;5;154m\]'
 export PS1="${GREEN}\w\n\$\[\e[0m\]"
 
-. $HOME/.asdf/asdf.sh
-. $HOME/.asdf/completions/asdf.bash
+# . $HOME/.asdf/asdf.sh
+# . $HOME/.asdf/completions/asdf.bash
 
 # rust
 export PATH=$PATH:$HOME/.cargo/bin
