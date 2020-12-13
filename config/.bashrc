@@ -1,6 +1,14 @@
 GREEN='\[\e[38;5;154m\]'
-export PS1="${GREEN}\u@\h:\w\n\$\[\e[0m\]"
+export PS1="${GREEN}\w\n\$\[\e[0m\]"
 
-# Go
-export GOPATH=$HOME/go
-PATH="$GOPATH/bin:$PATH"
+. $HOME/.asdf/asdf.sh
+. $HOME/.asdf/completions/asdf.bash
+
+# rust
+export PATH=$PATH:$HOME/.cargo/bin
+
+# go
+export PATH=$PATH:/usr/local/go/bin
+
+# bit (.npmrc)
+# export BIT_TOKEN=$(bit config get user.token) 
